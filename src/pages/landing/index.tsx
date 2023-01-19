@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal, Stack, Zoom } from '@mui/material'
+import { Stack } from '@mui/material'
 import Footer from './footer'
 import LandingHero from './hero'
 import HowToSection from './how_to'
@@ -9,7 +9,7 @@ import ListOfStores from './store_list'
 type Props = {}
 
 const LandingPage = (props: Props) => {
-	const [showListOfStores, setShowListOfStores] = React.useState<boolean>(true)
+	const [showListOfStores, setShowListOfStores] = React.useState<boolean>(false)
 
 	const handleToggleListOfStores = () =>
 		setShowListOfStores((prevState) => !prevState)

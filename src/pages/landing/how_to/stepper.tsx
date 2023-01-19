@@ -1,12 +1,4 @@
-import React from 'react'
-import {
-	Box,
-	Stack,
-	Step,
-	StepContent,
-	Stepper,
-	Typography
-} from '@mui/material'
+import { Stack, Typography } from '@mui/material'
 import { theme } from '../../../utils'
 
 type Props = {
