@@ -22,7 +22,10 @@ const LandingHero = (props: Props) => {
 		>
 			<Grid
 				container
-				sx={{ flex: 1 }}
+				sx={{
+					display: 'flex',
+					flex: 1
+				}}
 			>
 				<Grid
 					item
@@ -47,12 +50,6 @@ const LandingHero = (props: Props) => {
 					item
 					md={7}
 					lg={8}
-					sx={{
-						display: {
-							xs: 'none',
-							md: 'flex'
-						}
-					}}
 				>
 					<Image
 						src={Background2}
